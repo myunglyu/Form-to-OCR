@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Extracted Texts</title>
+</head>
+<body>
+    <h1>Extracted Texts</h1>
+    <ul>
+        {% for key, text in texts.items() %}
+            <li><strong>{{ key }}:</strong> {{ text }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

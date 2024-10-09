@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Annotate Image</title>
+</head>
+<body>
+    <h1>Annotate Image</h1>
+    <img src="{{ url_for('static', filename='uploads/' + filename) }}" alt="Image to annotate">
+    <form action="" method="post">
+        <label for="key">Key:</label>
+        <input type="text" name="key" id="key" required>
+        <label for="coords">Coordinates (x1,y1,x2,y2):</label>
+        <input type="text" name="coords" id="coords" required>
+        <input type="submit" value="Annotate">
+    </form>
+</body>
+</html>
