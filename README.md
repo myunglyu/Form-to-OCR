@@ -1,1 +1,1 @@
-Developing project whichi reads forms and processes it to data.
+Developing project which reads forms and processes it to data.
